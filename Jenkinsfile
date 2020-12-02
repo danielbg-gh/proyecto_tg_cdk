@@ -16,8 +16,13 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh '''cat versionImage | xargs ./scripts/build.sh
-#cat ./scripts/build.sh'''
+        sh '''echo "1.1" | xargs ./scripts/build.sh
+
+
+
+  
+
+'''
       }
     }
 
